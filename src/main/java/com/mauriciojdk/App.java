@@ -8,7 +8,7 @@ import java.util.List;
 
 public class App {
     public static void main( String[] args ) {
-        Session session = HibernateSession.getSessionFactory().openSession();
+        Session session = HibernateSession.getSessionFactorys().openSession();
 
         session.beginTransaction();
 
